@@ -1,0 +1,63 @@
+body {
+  font-family: "Noto Sans Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background: #b8c1c3;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  border-bottom: 3px solid #83635c;
+  border-radius: 5px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  box-shadow: 0 20px 16px 0 rgba(117, 117, 117, 0.2);
+  background: #fefefe;
+}
+
+.avatar {
+  width: 200px;
+  margin-right: 20px;
+  border: 1px solid #cdcfca;
+  border-radius: 10px 0 10px 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.name {
+  font-family: "Great Vibes", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #955847;
+  font-style: italic;
+  margin-top: 2px;
+  margin-bottom: 0;
+  font-size: 43px;
+}
+
+.job {
+  font-size: 20px;
+  color: #b8c1c3;
+  margin-top: -12px;
+}
+
+.contacts {
+  font-size: 14px;
+}
+
+.contact {
+  margin-top: 0;
+  margin-bottom: 2px;
+}
