@@ -1,11 +1,17 @@
+html,
+body {
+  height: 100vh;
+}
+
 body {
   font-family: "Noto Sans Display", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings: "wdth" 100;
   display: flex;
+  margin: 0;
   justify-content: center;
-  margin-top: 100px;
+  align-items: center;
   background: #b8c1c3;
 }
 
